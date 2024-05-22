@@ -1,0 +1,59 @@
+#banner {
+  background-image: url("https://preview.colorlib.com/theme/estore/assets/img/hero/h1_hero.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  .banner-image {
+    height: 30vh;
+    img {
+      height: 90vh;
+    }
+  }
+  .banner-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // text-align: right;
+    padding-left: 50rem;
+
+    .discount {
+      font-size: 40px;
+      color: blue;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 100px;
+    }
+    span {
+      font-size: 20px;
+    }
+  }
+}
+#shopbycategory {
+  .shopbycategorytxt {
+    padding: 3rem;
+    text-align: center;
+    font-size: 48px;
+  }
+  .categories {
+    margin-left: 50px;
+    display: flex;
+    gap: 15px;
+    img {
+      width: 90%;
+    }
+  }
+}
+#latest-products {
+  padding: 5rem;
+  .latestproducts {
+    padding-bottom: 3rem;
+  }
+}
+.oldprice {
+  text-decoration: line-through;
+  color: red;
+  font-size: 20px;
+}
+.newprice {
+  font-size: 20px;
+}
